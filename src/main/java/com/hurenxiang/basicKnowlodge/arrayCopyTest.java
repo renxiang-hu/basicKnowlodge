@@ -1,6 +1,7 @@
 package com.hurenxiang.basicKnowlodge;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class arrayCopyTest {
     public static void main(String[] args) {
