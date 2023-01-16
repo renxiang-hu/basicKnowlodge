@@ -6,7 +6,11 @@ package com.hurenxiang.designModel.proxy.static_proxy;
 public class ProxyPoint implements SellTickets{
 
     //声明火车站类对象
-    private TrainStation trainStation = new TrainStation();
+    private TrainStation trainStation;
+
+    public ProxyPoint(TrainStation trainStation){
+        this.trainStation = trainStation;
+    }
 
     @Override
     public void sell() {
