@@ -1,10 +1,10 @@
 package com.hurenxiang.designModel.proxy.static3_proxy;
 
-public class HttpProxy implements IHttp{
+public class HttpProxy implements IHttp {
 
     private HttpUtil httpUtil;
 
-    public HttpProxy(HttpUtil httpUtil){
+    public HttpProxy(HttpUtil httpUtil) {
         this.httpUtil = httpUtil;
     }
 

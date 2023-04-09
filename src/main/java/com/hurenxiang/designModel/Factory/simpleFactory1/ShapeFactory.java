@@ -8,16 +8,16 @@ public class ShapeFactory {
 
     public static final String SQUARE = "square";
 
-    public Shape getShape(String shapeType){
-        if (shapeType == null){
+    public Shape getShape(String shapeType) {
+        if (shapeType == null) {
             return null;
         }
         switch (shapeType) {
-            case CIRCLE :
+            case CIRCLE:
                 return new Circle();
-            case RECTANGLE :
+            case RECTANGLE:
                 return new Rectangle();
-            case SQUARE :
+            case SQUARE:
                 return new Square();
             default:
                 return null;

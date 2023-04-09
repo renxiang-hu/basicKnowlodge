@@ -1,6 +1,6 @@
 package com.hurenxiang.designModel.proxy.static1_proxy;
 
-public class Student implements Person{
+public class Student implements Person {
 
     @Override
     public void wakeup() {

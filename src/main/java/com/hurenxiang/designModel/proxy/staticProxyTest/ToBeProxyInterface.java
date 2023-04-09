@@ -2,11 +2,11 @@ package com.hurenxiang.designModel.proxy.staticProxyTest;
 
 public interface ToBeProxyInterface {
 
-    void addUser(String userId,String userName);
+    void addUser(String userId, String userName);
 
     void delUser(String userId);
 
     String findUser(String userId);
 
-    void modifyUser(String userId,String userName);
+    void modifyUser(String userId, String userName);
 }

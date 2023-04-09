@@ -1,6 +1,6 @@
 package designModel.Factory.abstractFactory;
 
-public class FactoryB implements AbstractFactory{
+public class FactoryB implements AbstractFactory {
     @Override
     public Product1 createProduct1() {
         return new Product1B();

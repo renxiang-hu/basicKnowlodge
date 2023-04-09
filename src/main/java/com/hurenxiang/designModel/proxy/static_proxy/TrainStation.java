@@ -3,7 +3,7 @@ package com.hurenxiang.designModel.proxy.static_proxy;
 /**
  * 火车站类
  */
-public class TrainStation implements  SellTickets{
+public class TrainStation implements SellTickets {
 
     @Override
     public void sell() {

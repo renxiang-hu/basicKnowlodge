@@ -1,6 +1,6 @@
 package com.hurenxiang.designModel.proxy.staticProxyTest;
 
-public class ToBeProxyedService1 implements ToBeProxyInterface{
+public class ToBeProxyedService1 implements ToBeProxyInterface {
     @Override
     public void addUser(String userId, String userName) {
         System.out.println("ToBeProxyedService1.addUser");

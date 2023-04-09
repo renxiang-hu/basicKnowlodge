@@ -1,10 +1,10 @@
 package com.hurenxiang.designModel.proxy.static2_proxy;
 
-public class PersonProxy implements IPerson{
+public class PersonProxy implements IPerson {
 
     private Person person;
 
-    public PersonProxy(Person person){
+    public PersonProxy(Person person) {
         this.person = person;
     }
 

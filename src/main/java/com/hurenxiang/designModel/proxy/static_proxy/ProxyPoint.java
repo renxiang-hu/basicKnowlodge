@@ -3,12 +3,12 @@ package com.hurenxiang.designModel.proxy.static_proxy;
 /**
  * 代售点类
  */
-public class ProxyPoint implements SellTickets{
+public class ProxyPoint implements SellTickets {
 
     //声明火车站类对象
     private TrainStation trainStation;
 
-    public ProxyPoint(TrainStation trainStation){
+    public ProxyPoint(TrainStation trainStation) {
         this.trainStation = trainStation;
     }
 

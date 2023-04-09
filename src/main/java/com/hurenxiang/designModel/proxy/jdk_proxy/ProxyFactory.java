@@ -12,14 +12,14 @@ public class ProxyFactory {
     //声明目标对象
     private TrainStation station = new TrainStation();
 
-    public SellTickets getProxyObject(){
+    public SellTickets getProxyObject() {
         //返回代理对象
         /**
          * ClassLoader loader,  类加载器，用于加载代理类，可以通过目标对象获得类加载器
          * Class<?>[] interfaces,  代理类实现的接口的字节码对象
          * InvocationHandler h    代理对象的调用处理程序
          */
-        SellTickets proxyObject = (SellTickets)Proxy.newProxyInstance(
+        SellTickets proxyObject = (SellTickets) Proxy.newProxyInstance(
                 station.getClass().getClassLoader(),
                 station.getClass().getInterfaces(),
                 new InvocationHandler() {

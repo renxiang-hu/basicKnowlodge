@@ -1,12 +1,12 @@
 package com.hurenxiang.designModel.proxy.staticProxyTest;
 
-public class StaticProxyHandler implements ToBeProxyInterface{
+public class StaticProxyHandler implements ToBeProxyInterface {
 
     //目标对象
     private ToBeProxyedService1 toBeProxyedService1;
 
     //通过构造方法传入目标对象
-    public StaticProxyHandler(ToBeProxyedService1 toBeProxyedService1){
+    public StaticProxyHandler(ToBeProxyedService1 toBeProxyedService1) {
         this.toBeProxyedService1 = toBeProxyedService1;
     }
 
@@ -15,13 +15,13 @@ public class StaticProxyHandler implements ToBeProxyInterface{
         //添加打印日志的功能
         //开始添加用户
         System.out.println("start addUser()");
-        toBeProxyedService1.addUser(userId,userName);
+        toBeProxyedService1.addUser(userId, userName);
         System.out.println("success addUser");
     }
 
     @Override
     public void delUser(String userId) {
-         toBeProxyedService1.delUser(userId);
+        toBeProxyedService1.delUser(userId);
     }
 
     @Override
@@ -32,6 +32,6 @@ public class StaticProxyHandler implements ToBeProxyInterface{
 
     @Override
     public void modifyUser(String userId, String userName) {
-         toBeProxyedService1.modifyUser(userId,userName);
+        toBeProxyedService1.modifyUser(userId, userName);
     }
 }

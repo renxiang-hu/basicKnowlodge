@@ -1,6 +1,6 @@
 package com.hurenxiang.designModel.proxy.static2_proxy;
 
-public class Person implements IPerson{
+public class Person implements IPerson {
     @Override
     public void eat() {
         System.out.println("吃饭饭");

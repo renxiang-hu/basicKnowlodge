@@ -1,6 +1,6 @@
 package com.hurenxiang.designModel.proxy.static1_proxy;
 
-public class PersonProxy implements Person{
+public class PersonProxy implements Person {
 
     private Student student = new Student();
 
